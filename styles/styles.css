@@ -297,3 +297,49 @@ span {
 .btn-box.btns a::before {
     background: var(--second-bg-color); 
 }
+.educación {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: auto;
+    padding-bottom: 5rem;
+}
+
+.educación .educación-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+}
+
+.educación-row .educación-colum {
+    flex: 1 1 40rem;
+}
+
+.educación-colum .title {
+    font-size: 2.5rem;
+    margin: 0 0 1.5rem 2rem;
+}
+
+.educación-colum .educación-box {
+    border-left: .2rem solid var(--second-bg-color);
+}
+
+.educación-box .educación-content {
+    position: relative;
+    padding-left: 2rem;
+}
+
+.educación-content .content .year {
+    font-size: 1.5rem;
+    color: var(--second-bg-color);
+    padding-bottom: .5rem;
+}
+
+.educación-content .content .year i {
+    padding-right: 5rem;
+}
+
+.educación-content .content h3 {
+    font size: 2rem;
+}
